@@ -191,17 +191,17 @@ b {
   left: 15%;
   position: absolute;
   max-width: none;
-  top: 4%;
+  top: 37%;
   display: block;
 }
 
 .hero-planet2 {
   position: absolute;
-  top: 20.7%;
-  right: 18.8%;
-  width: 10%;
-  displ
+  top: 48%;
+  right: 14%;
+  width: 12%;
   max-width: none;
+  z-index: 5;
 }
 
 .sky-wrapper {
@@ -244,3 +244,81 @@ b {
     opacity: 0.4;
 }
 
+
+
+/* -----------title------- */
+
+
+.container .home-title{
+  position: relative;
+  display: flex;
+}
+
+.home-hero-title1{
+
+  padding: 200px 150px 0px 150px;
+  position: absolute;
+  z-index: 5;
+  font-size: 55px;
+  line-height: 1.2em;
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: .5px;
+  word-spacing: 5px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  /* text-transform: uppercase; */
+}
+
+.home-hero-title2 {
+  padding: 260px 120px 0px 175px;
+  position: absolute;
+  z-index: 5;
+  font-size: 55px;
+  line-height: 1.2em;
+  /* text-transform: uppercase; */
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: .5px;
+  word-spacing: 5px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+/* ------------------sub title ------------- */
+
+
+.profile-subtitle{
+  display: flex;
+  position: relative;
+
+}
+
+.sub-title-img {
+  position: absolute;
+  width: 45%;
+  display: flex;
+  right: 26%;
+  text-align: center;
+  align-items: center;
+  top: -289%;
+}
+
+
+.subtitle-title-h2 h3 {
+  width: 48%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  top: 50%;
+}
