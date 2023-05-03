@@ -1136,3 +1136,73 @@ b {
   text-align: center;
 }
 
+
+/* -----------------skills logo --------------- */
+
+.skills-section{
+    position: relative;
+    top: 212px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.skill-container{
+  position: relative;
+  align-items: center;
+  display: flex;
+  text-align: center;
+
+}
+
+.row-skills{
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-title h2{
+  font-size: 50px;
+  font-weight: 900;
+  color: antiquewhite;
+  padding: 25px;
+  text-transform: uppercase;
+}
+
+.skill-1{
+  width: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.skill-2{
+  width: 40%;
+  display: flex;
+  text-align: center;
+}
+
+.skill-3{
+  width: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.skill-4{
+  width: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.skill-5{
+  width: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.skill-6{
+  width: 50%;
+  display: flex;
+  text-align: center;
+}
