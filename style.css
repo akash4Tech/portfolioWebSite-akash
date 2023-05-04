@@ -1161,17 +1161,20 @@ b {
   color: antiquewhite;
   padding: 25px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .skills-name {  
-  color:  black;
+  color: white;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 
 .padding-img {
   max-width: 100%;
   height: auto;
-  padding-bottom: 9px;
+  padding-bottom: 12px;
 }
 
 /* -----animation-- */
@@ -1218,24 +1221,24 @@ b {
 
 .card {
   position: relative;
-  width: 60%;
-  height: 180px;
+  width: 50%;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  box-shadow: 0px 2px 10px rgb(236,139,126);
+  background-color: #6813ec;
+  box-shadow: 0px 2px 10px rgb(104,19,236));
   transition: all 0.4s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card i {
-  font-size: 7rem;
-  color: #000;
+  font-size: 4rem;
+  color: whitesmoke;
 }
 
 .card-overlay {
@@ -1250,3 +1253,72 @@ b {
   justify-content: center;
 }
 
+
+
+/* -------project section */
+
+
+.row-project{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  
+}
+
+.project-container {
+  margin-bottom: 30px;
+}
+
+.project-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttons-container a:hover {
+  background-color: #0062cc;
+}
+
+.buttons-container a i {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .project-container img {
+    max-width: 100%;
+  }
+  
+  .buttons-container a {
+    margin-right: 0;
+  }
+}
