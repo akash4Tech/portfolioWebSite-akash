@@ -1070,7 +1070,7 @@ b {
 
 /* ------------about------- */
 
-#about h2 {
+/* #about h2 {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -1126,7 +1126,106 @@ b {
   display: flex;
   word-spacing: 3px;
   text-align: center;
+} */
+
+#about-me {
+  background-color: whitesmoke;
+  padding: 40px 0;
+  top: -392px;
+  position: relative;
+  height: 450px;
+  text-align: center;
 }
+
+
+#abt-card-position{
+  position: relative;
+    width: 58%;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6813ec;
+    box-shadow: 0px 2px 10px rgb(104,19,236));
+    transition: all 0.4s ease-in-out;
+}
+
+#abt-btn a {
+  background-color: #6813ec;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 26px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  overflow: hidden;
+
+  
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.about-me-content {
+  padding: 0 50px;
+  text-align: start;
+}
+
+.about-me-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+
+.about-me-content p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  /* line-height: 1.8; */
+  font-family: "Poppins", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons a {
+
+  background-color: #6813ec;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 26px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.buttons a i {
+  margin-right: 10px;
+}
+
+.btn:hover {
+  color: #6813ec;
+  background-color: #ffffff;
+  border-color: var(--bs-btn-hover-border-color);
+}
+
 
 /* -----------------skills logo --------------- */
 
@@ -1159,7 +1258,7 @@ b {
   font-size: 50px;
   font-weight: 900;
   color: antiquewhite;
-  padding: 25px;
+  padding: 50px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -1262,7 +1361,7 @@ b {
   width: 100%;
   display: flex;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   
 }
 
@@ -1281,11 +1380,13 @@ b {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: antiquewhite;
 }
 
 .project-container p {
   font-size: 16px;
   margin-bottom: 20px;
+  color: antiquewhite;
 }
 
 .buttons-container {
@@ -1298,15 +1399,16 @@ b {
   padding: 10px 20px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background-color: #007bff;
+  background-color: #6813ec;
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
 
 .buttons-container a:hover {
-  background-color: #0062cc;
+  background-color: white;
+  color: #6813ec;
 }
 
 .buttons-container a i {
@@ -1328,37 +1430,54 @@ b {
 
 
 /* Style for Contact Form section */
+
+
 #get-in-touch {
-  margin: 50px;
-  background-color: #f7f7f7;
-  padding: 60px 0;
+  margin: 0px 50px;
+  background-color: transparent;
+  padding: 0px 25px;
 }
 
 #get-in-touch h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: antiquewhite;
+  padding: 25px;
+  text-transform: uppercase;
   text-align: center;
-  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+
+
+}
+
+
+.get-section-container{
+  margin-bottom: 0px !important ;
 }
 
 #get-in-touch p {
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 50px;
+  font-size: 12px;
+  margin-bottom: 25px;
+  color: antiquewhite;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-box {
   margin-bottom: 20px;
+  text-align: center;
+  color: antiquewhite;
 }
 
 .contact-box i {
-  font-size: 24px;
+  font-size: 20px;
   margin-right: 10px;
 }
 
-.contact-box h4 {
+/* .contact-box h4 {
   font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
+  font-size: 12px;
+} */
 
 .contact-box p {
   font-size: 16px;
@@ -1366,42 +1485,52 @@ b {
 }
 
 .contact-form {
-  margin-top: 50px;
-  background-color: #fff;
-  border-radius: 8px;
+  
+  background-color: whitesmoke;
+  border-radius: 10px;
   padding: 40px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form h4 {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: bold;
-  margin-bottom: 30px;
+  text-align: center;
+  margin: 20px;
+  font-weight: 900;
+  color: #6813ec;
 }
 
 .contact-form label i {
   font-size: 20px;
   margin-right: 10px;
-  color: #333;
+  color: #6813ec;
 }
 
 .contact-form .form-group {
   margin-bottom: 20px;
 }
 
+
+
 .contact-form .form-control {
   border: none;
   border-radius: 0;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #6813ec;
   font-size: 16px;
   padding: 15px 0;
   background-color: transparent;
-  color: #333;
+  color: #221a21;
+}
+
+.service-container{
+  text-align: center;
+  padding: -31px;
 }
 
 .contact-form .form-control:focus {
   box-shadow: none;
-  border-color: #8bc34a;
+  border-color: #6813ec;
 }
 
 .contact-form textarea.form-control {
@@ -1410,40 +1539,49 @@ b {
 
 .contact-form button[type="submit"] {
   border-radius: 8px;
-  padding: 15px 30px;
-  background-color: #8bc34a;
-  border-color: #8bc34a;
-  color: #fff;
-  font-size: 18px;
+  padding: 12px 13px;
+  background-color: #6813ec;
+  border-color: #ffffff
+  color: antiquewhite;
+  font-size: 17px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
+  margin: 16px 280px;
 }
 
 .contact-form button[type="submit"]:hover {
-  background-color: #689f38;
-  border-color: #689f38;
+  background-color: #6813e;
+  border-color: #4;
   cursor: pointer;
 }
 
 .contact-form .btn-block {
   margin-bottom: 10px;
+  color: #6813ec;
+  font-weight: 400;
+  font-size: 15px;
+  border-color: ;
+  font-family: "Poppins", sans-serif;
+  text-align: center;  
 }
 
 .contact-form .btn-primary {
-  background-color: #8bc34a;
-  border-color: #8bc34a;
-  color: #fff;
-  font-size: 16px;
+  background-color: #6813ec;
+  border-color: #6813ec;
+  color: antiquewhite;
+  font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 15px;
   border-radius: 8px;
-  width: 100%;
+  width: 40%;
   transition: all 0.3s ease;
 }
 
 .contact-form .btn-primary:hover {
-  background-color: #689f38;
-  border-color: #689f38;
+  background-color: antiquewhite;
+  border-color: #6813ec;
+  color: #6813ec;
   cursor: pointer;
 }
