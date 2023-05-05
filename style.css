@@ -1225,6 +1225,76 @@ b {
   background-color: #ffffff;
   border-color: var(--bs-btn-hover-border-color);
 }
+/* -----------------education --------------- */
+
+
+#education {
+
+  padding: 80px 0;
+  background-color:;
+  top: -353px;
+}
+
+  
+  #education h2 {
+  font-weight: 700;
+  color: #6813ec;
+  text-align: center;
+  margin-bottom: 50px;
+  }
+  
+  /* .education-container{
+    width: auto;
+    height: 690px;
+  }
+  .education-box {
+  position: relative;
+  margin-bottom: 30px;
+  }
+  
+  .education-box img {
+  transition: transform 0.5s ease;
+  }
+  
+  .education-box:hover img {
+  transform: scale(1.1);
+  }
+  
+  .education-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  text-align: center;
+  }
+  
+  .education-details h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .education-details p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  }
+  
+  .education-details .btn-primary {
+  background-color: #6813ec;
+  border-color: #6813ec;
+  transition: all 0.5s ease;
+  }
+  
+  .education-details .btn-primary:hover {
+  background-color: #5810c3;
+  border-color: #5810c3;
+  } */
+
+
+
 
 
 /* -----------------skills logo --------------- */
