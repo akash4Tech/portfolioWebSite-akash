@@ -129,48 +129,46 @@ b {
 
 /* ---------icon-animation----- */
 
-#animi-nav {
-  .navbar-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
-  .navbar-items li {
-    margin: 0 20px;
-    position: relative;
-  }
+.navbar-items li {
+  margin: 0 20px;
+  position: relative;
+}
 
-  .navbar-items li a {
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    position: relative;
-  }
+.navbar-items li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
 
-  .navbar-items li a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 2px;
-    width: 100%;
-    background-color: #fff;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.3s ease;
-  }
+.navbar-items li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
 
-  .navbar-items li a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+.navbar-items li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
-  .navbar-items li.active a::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+.navbar-items li.active a::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .links a {
@@ -1131,45 +1129,42 @@ b {
 #about-me {
   background-color: whitesmoke;
   padding: 40px 0;
-  top: -392px;
+  top: -378px;
   position: relative;
   height: 450px;
   text-align: center;
 }
 
-
-#abt-card-position{
+#abt-card-position {
   position: relative;
-    width: 58%;
-    height: 340px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #6813ec;
-    box-shadow: 0px 2px 10px rgb(104,19,236));
-    transition: all 0.4s ease-in-out;
+  width: 58%;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6813ec;
+  box-shadow: 0px 2px 10px rgb(104, 19, 236);
+  transition: all 0.4s ease-in-out;
 }
 
 #abt-btn a {
   background-color: #6813ec;
-    color: #fff;
-    border-radius: 50px;
-    padding: 10px 26px;
-    margin-right: 45px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 26px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
 .card {
   border: 1px solid #dcdcdc;
   border-radius: 10px;
   overflow: hidden;
-
-  
 }
 
 .card-img-top {
@@ -1202,18 +1197,17 @@ b {
 }
 
 .buttons a {
-
   background-color: #6813ec;
-    color: #fff;
-    border-radius: 50px;
-    padding: 10px 26px;
-    margin-right: 45px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 26px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
 .buttons a i {
@@ -1227,75 +1221,106 @@ b {
 }
 /* -----------------education --------------- */
 
-
 #education {
-
-  padding: 80px 0;
-  background-color:;
-  top: -353px;
+  padding: 20px 0;
+  /* background-color: red; */
+  top: -70px;
+  position: relative;
 }
 
-  
-  #education h2 {
+#education-position {
+  height: 700px;
+  margin: 0px 50px;
+}
+
+#education h2 {
   font-weight: 700;
-  color: #6813ec;
+  color: antiquewhite;
   text-align: center;
   margin-bottom: 50px;
-  }
-  
-  /* .education-container{
-    width: auto;
-    height: 690px;
-  }
-  .education-box {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  position: relative;
+  top: -190px;
+  padding: 40px;
+  z-index: 5;
+}
+
+.education-container {
+  height: 1000px;
+  width: auto;
+  margin-bottom: 228px;
+}
+
+.education-box {
   position: relative;
   margin-bottom: 30px;
-  }
-  
-  .education-box img {
+}
+
+.education-box img {
   transition: transform 0.5s ease;
-  }
-  
-  .education-box:hover img {
+}
+
+.education-box:hover img {
   transform: scale(1.1);
-  }
-  
-  .education-details {
+}
+
+.education-details {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  /* background-color: white; */
   padding: 20px;
   text-align: center;
-  }
-  
-  .education-details h3 {
+  height: 215px;
+}
+
+.education-details h3 {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 10px;
-  }
-  
-  .education-details p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.education-details p {
   font-size: 16px;
-  color: #333;
   margin-bottom: 20px;
-  }
-  
-  .education-details .btn-primary {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.education-details .btn-primary {
   background-color: #6813ec;
   border-color: #6813ec;
   transition: all 0.5s ease;
-  }
-  
-  .education-details .btn-primary:hover {
+}
+
+.education-details .btn-primary:hover {
   background-color: #5810c3;
   border-color: #5810c3;
-  } */
+}
 
+.education-h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+}
 
+.education-p {
+  font-size: 12px;
+  color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+}
 
-
+.fa-book:before {
+  content: "\f02d";
+  padding: 20px;
+}
 
 /* -----------------skills logo --------------- */
 
@@ -1334,7 +1359,7 @@ b {
   justify-content: center;
 }
 
-.skills-name {  
+.skills-name {
   color: white;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -1396,7 +1421,7 @@ b {
   align-items: center;
   justify-content: center;
   background-color: #6813ec;
-  box-shadow: 0px 2px 10px rgb(104,19,236));
+  box-shadow: 0px 2px 10px rgb(104, 19, 236);
   transition: all 0.4s ease-in-out;
 }
 
@@ -1408,10 +1433,11 @@ b {
 .card i {
   font-size: 4rem;
   color: whitesmoke;
+  position: relative;
+  z-index: 6;
 }
 
 .card-overlay {
-
   position: absolute;
   top: 0;
   left: 0;
@@ -1422,17 +1448,13 @@ b {
   justify-content: center;
 }
 
-
-
 /* -------project section */
 
-
-.row-project{
+.row-project {
   width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 100px;
-  
 }
 
 .project-container {
@@ -1489,18 +1511,15 @@ b {
   .project-container img {
     max-width: 100%;
   }
-  
+
   .buttons-container a {
     margin-right: 0;
   }
 }
 
-
 /* --------get in touch section  */
 
-
 /* Style for Contact Form section */
-
 
 #get-in-touch {
   margin: 0px 50px;
@@ -1516,12 +1535,9 @@ b {
   text-transform: uppercase;
   text-align: center;
   font-family: "Poppins", sans-serif;
-
-
 }
 
-
-.get-section-container{
+.get-section-container {
   margin-bottom: 0px !important ;
 }
 
@@ -1544,6 +1560,20 @@ b {
   margin-right: 10px;
 }
 
+.contact-box i {
+  color: #555;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-box:hover i {
+  transform: scale(1.2);
+  color: #6813ec;
+}
+
+.contact-box:hover p {
+  color: #333;
+}
+
 /* .contact-box h4 {
   font-weight: bold;
   font-size: 12px;
@@ -1555,7 +1585,6 @@ b {
 }
 
 .contact-form {
-  
   background-color: whitesmoke;
   border-radius: 10px;
   padding: 40px;
@@ -1581,8 +1610,6 @@ b {
   margin-bottom: 20px;
 }
 
-
-
 .contact-form .form-control {
   border: none;
   border-radius: 0;
@@ -1593,7 +1620,7 @@ b {
   color: #221a21;
 }
 
-.service-container{
+.service-container {
   text-align: center;
   padding: -31px;
 }
@@ -1611,7 +1638,7 @@ b {
   border-radius: 8px;
   padding: 12px 13px;
   background-color: #6813ec;
-  border-color: #ffffff
+  border-color: #ffffff;
   color: antiquewhite;
   font-size: 17px;
   font-weight: bold;
@@ -1621,7 +1648,7 @@ b {
 }
 
 .contact-form button[type="submit"]:hover {
-  background-color: #6813e;
+  background-color: #6813ec;
   border-color: #4;
   cursor: pointer;
 }
@@ -1633,7 +1660,7 @@ b {
   font-size: 15px;
   border-color: ;
   font-family: "Poppins", sans-serif;
-  text-align: center;  
+  text-align: center;
 }
 
 .contact-form .btn-primary {
