@@ -1,17 +1,17 @@
-/* 
+/* /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 
 
-
+/* 
 @media (max-width:1440px){
   
-    /* CSS */
+    /* CSS  large lap top*/
 
 
-    .sub-title-pic{
+    /* .sub-title-pic{
         right: 36% ! important;
         text-align: center !important;
         top: -187px !important;
@@ -21,7 +21,6 @@
 .subtitle-title-h2{
 
         position: absolute ! important;
-        left: 33% !important;
         top: -47px !important;
     
 }
@@ -55,7 +54,20 @@
     margin-left: 510px !important;
     width: 200px !important;
 
-}
+} */
+
+
+
+
+
+
+   
+
+    @media (max-width:1024px){
+
+     /* CSS  medium laptop*/
+
+    
 
 
 
@@ -65,48 +77,11 @@
 
 
 
+    }
+    
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-}
 
     
     
@@ -177,4 +152,4 @@
     
     /* CSS */
     
-  }
+  } */
