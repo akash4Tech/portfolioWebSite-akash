@@ -1,4 +1,11 @@
-* {
+html{
+  overflow-x: hidden;
+
+}
+
+
+*{
+
   font-family: "DM Serif Display", serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -1028,7 +1035,7 @@ b {
   right: 29%;
   text-align: center;
   align-items: center;
-  top: -155px;
+  top: -165px;
   z-index: 4;
   opacity: 70%;
 }
@@ -1047,9 +1054,9 @@ b {
   font-size: 65px;
   letter-spacing: 10px;
   text-transform: uppercase;
-  border: nonene;
+  border: none;
   border-radius: 2px;
-  border: 2px solid #ffff;
+  /* border: 2px solid #ffff; */
 }
 
 .subtitle-title-h3 {
@@ -1058,7 +1065,7 @@ b {
   text-align: center;
   align-items: center;
   font-size: 50px;
-  top: 62px;
+  top: 52px;
   right: 32%;
   font-weight: 600;
   text-transform: uppercase;
