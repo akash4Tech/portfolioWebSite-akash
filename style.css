@@ -11,7 +11,6 @@ html{
   font-family: "Roboto", sans-serif;
 }
 
-/* =======================animations=================================*/
 #animi-hover i {
   opacity: 1;
   transform: translateY(0);
@@ -254,12 +253,11 @@ b {
   max-width: 100%;
 }
 
-.hero-sun {
+.hero-sun{
   position: absolute;
   left: 0%;
   top: auto;
-  z-index: 3;
-  display: block;
+  z-index: 6;
   width: 44.27%;
   max-width: 1920px;
   margin-right: auto;
