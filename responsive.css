@@ -1,0 +1,180 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+
+
+@media (max-width:1440px){
+  
+    /* CSS */
+
+
+    .sub-title-pic{
+        right: 36% ! important;
+        text-align: center !important;
+        top: -187px !important;
+        z-index: 4 !important;
+        width: 30% ! important;
+    }
+.subtitle-title-h2{
+
+        position: absolute ! important;
+        left: 33% !important;
+        top: -47px !important;
+    
+}
+
+.subtitle-title-h3{
+    position: absolute !important;
+    top: 22px !important;
+    right: 30%;
+    left: 40% !important;
+}
+
+.home-title{
+    width: 98%;
+    padding: 0px 0px 0px 200px;
+    text-align: center;
+}
+.card-img-top {
+    width: 100% !important;
+    height: auto;
+}
+
+
+#abt-card-position {
+    width: 49% !important;
+    height: 374px !important;
+
+}
+
+.contact-form button[type="submit"] {
+
+    margin-left: 510px !important;
+    width: 200px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+}
+
+    
+    
+
+
+
+
+
+
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }

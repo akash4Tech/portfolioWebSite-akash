@@ -971,8 +971,8 @@ b {
 
 .home-title {
   position: absolute;
-  top: -80px;
-  left: 80px;
+  top: 560px;
+  left: 108px;
 }
 
 .home-hero-title1 {
@@ -1019,35 +1019,39 @@ b {
 .profile-subtitle {
   display: flex;
   position: relative;
+  width: auto;
+  height: auto;
 }
 
 .sub-title-pic {
   position: absolute;
-  width: 45%;
+  width: 40%;
   display: flex;
-  right: 26%;
+  right: 29%;
   text-align: center;
   align-items: center;
-  top: 421px;
+  top: -155px;
   z-index: 4;
-  opacity: 35%;
+  opacity: 70%;
 }
 
 .subtitle-title-h2 {
   position: absolute;
   display: flex;
-  text-align: center;
   left: 28%;
   align-items: center;
-  top: 575px;
-  font-weight: 900;
+  top: -19px;
+  font-weight: 700;
   text-transform: uppercase;
-  font-family: "DM Serif Display", serif;
-  color: #ffffff;
+  font-family: "poppins", serif;
+  color: #330b71;
   z-index: 5;
   font-size: 65px;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   text-transform: uppercase;
+  border: nonene;
+  border-radius: 2px;
+  border: 2px solid #ffff;
 }
 
 .subtitle-title-h3 {
@@ -1056,14 +1060,14 @@ b {
   text-align: center;
   align-items: center;
   font-size: 50px;
-  top: 635px;
-  right: 33%;
-  font-weight: 500;
+  top: 62px;
+  right: 32%;
+  font-weight: 600;
   text-transform: uppercase;
-  font-family: "DM Serif Display", serif;
-  color: #6813ec;
+  font-family: "Poppins", serif;
+  color: #ffffff;
   z-index: 5;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
 /* ------------about------- */
@@ -1304,17 +1308,20 @@ b {
 }
 
 .education-h3 {
+
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: antiquewhite;
   font-family: "Poppins", sans-serif;
+  padding: 0px 70px;
 }
 
 .education-p {
   font-size: 12px;
   color: antiquewhite;
   font-family: "Poppins", sans-serif;
+  padding: 0px 60px;
 }
 
 .fa-book:before {
@@ -1658,7 +1665,7 @@ b {
   color: #6813ec;
   font-weight: 400;
   font-size: 15px;
-  border-color: #6813ec  ;
+  border-color: 6813ec  ;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
