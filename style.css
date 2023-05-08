@@ -1649,7 +1649,7 @@ b {
 
 .contact-form button[type="submit"]:hover {
   background-color: #6813ec;
-  border-color: #4;
+  border-color: #fff;
   cursor: pointer;
 }
 
@@ -1658,7 +1658,7 @@ b {
   color: #6813ec;
   font-weight: 400;
   font-size: 15px;
-  border-color: ;
+  border-color: #6813ec  ;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
