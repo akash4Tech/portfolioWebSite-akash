@@ -262,10 +262,14 @@ b {
   max-width: 1920px;
   margin-right: auto;
   margin-left: auto;
+  vertical-align: middle;
 }
 
-.hero-sun img {
-  vertical-align: middle;
+.hero-sun-new{
+  width: 40%;
+  position: absolute;
+  right: 30%;
+  top: 61%;
 }
 
 .hero-man {
