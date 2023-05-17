@@ -143,19 +143,6 @@ b {
 }
 
 
-
-
-.navbar-toggler {
-  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
-  font-size: var(--bs-navbar-toggler-font-size);
-  line-height: 1;
-  color: var(--bs-navbar-color);
-  background-color: #fff8f8;
-  border: var(--bs-border-width) solid rgb(237 222 222 / 15%);
-  border-radius: var(--bs-navbar-toggler-border-radius);
-  transition: var(--bs-navbar-toggler-transition);
-}
-
 /* ---------icon-animation----- */
 
 .navbar-items {
@@ -1792,6 +1779,16 @@ b {
   
   /* CSS */
 
+  #hero-bg-home {
+    background-image: url(./img/home-hero-bg-min.png);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -59%;
+    position: relative;
+}
+
+
 .home-hero-bg-wrap {
   position: relative;
   left: 0px;
@@ -1801,6 +1798,16 @@ b {
   width: 223%;
   height: 34vw;
   min-height: 80%;
+}
+
+
+/* nav bar */
+
+.w-container {
+  padding: 0% 3% 0% 3%;
+  width: 220%;
+  height: auto;
+  position: relative;
 }
 
   
