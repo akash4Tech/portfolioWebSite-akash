@@ -1,11 +1,8 @@
-html{
+html {
   overflow-x: hidden;
-
 }
 
-
-*{
-
+* {
   font-family: "DM Serif Display", serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -104,7 +101,6 @@ b {
 }
 
 .navbar-items li {
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -123,7 +119,6 @@ b {
 }
 
 .nav-icons {
-
   display: flex;
   text-align: center;
   align-items: center;
@@ -141,7 +136,6 @@ b {
 .nav-link:hover {
   color: antiquewhite;
 }
-
 
 /* ---------icon-animation----- */
 
@@ -222,10 +216,10 @@ b {
 
 .sc-home-hero {
   position: relative;
-  z-index: 0;
+  /* z-index: 0; */
   height: 80vw;
-  min-height: 1400px;
-  padding-top: 195px;
+  /* min-height: 1400px; */
+  /* padding-top: 195px; */
 }
 
 .home-hero-bg-wrap {
@@ -263,7 +257,7 @@ b {
   max-width: 100%;
 }
 
-.hero-sun{
+.hero-sun {
   position: absolute;
   left: 0%;
   top: auto;
@@ -275,7 +269,7 @@ b {
   vertical-align: middle;
 }
 
-.hero-sun-new{
+.hero-sun-new {
   width: 40%;
   position: absolute;
   right: 30%;
@@ -987,23 +981,24 @@ b {
 /* -----------title------- */
 
 .home-title {
-  position: absolute;
-  top: 560px;
-  left: 108px;
+  position: relative;
+  top: 825px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
+
 .home-hero-title1 {
-  padding: 216px 155px 0px 263px;
-  position: absolute;
-  z-index: 5;
+    z-index: 5;
   font-size: 32px;
   line-height: 1.2em;
   color: antiquewhite;
-  display: flex;
-  align-items: center;
-  text-align: center;
+   text-align: center;
   justify-content: center;
-  /* font-weight: 600; */
+  font-weight: 600;
   letter-spacing: 0.5px;
   word-spacing: 5px;
   color: #ffffff;
@@ -1012,17 +1007,12 @@ b {
 }
 
 .home-hero-title2 {
-  padding: 260px 120px 0px 235px;
-  position: absolute;
-  z-index: 5;
+   z-index: 5;
   font-size: 45px;
   line-height: 1.2em;
   color: antiquewhite;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  /* font-weight: 600; */
+   justify-content: center;
+  font-weight: 600;
   letter-spacing: 0.5px;
   word-spacing: 5px;
   color: #ffffff;
@@ -1036,54 +1026,36 @@ b {
 .profile-subtitle {
   display: flex;
   position: relative;
-  width: auto;
-  height: auto;
+  align-items: center;
+  justify-content: center;
+  /* height: 192px; */
+  flex-direction: column;
+  z-index: 5;
+
 }
 
 .sub-title-pic {
-  position: absolute;
-  width: 40%;
-  display: flex;
-  right: 29%;
-  text-align: center;
-  align-items: center;
-  top: -165px;
-  z-index: 4;
+    width: 35%;
   opacity: 70%;
 }
 
 .subtitle-title-h2 {
-  position: absolute;
-  display: flex;
-  left: 28%;
-  align-items: center;
-  top: -19px;
+ 
   font-weight: 700;
-  text-transform: uppercase;
+  font-variant: proportional-nums;
   font-family: "poppins", serif;
   color: #330b71;
-  z-index: 5;
   font-size: 65px;
   letter-spacing: 10px;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 2px;
-  /* border: 2px solid #ffff; */
+ 
 }
 
 .subtitle-title-h3 {
-  position: absolute;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  font-size: 50px;
-  top: 52px;
-  right: 32%;
+ 
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", serif;
   color: #ffffff;
-  z-index: 5;
   letter-spacing: 4px;
 }
 
@@ -1325,7 +1297,6 @@ b {
 }
 
 .education-h3 {
-
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -1683,7 +1654,7 @@ b {
   color: #6813ec;
   font-weight: 400;
   font-size: 15px;
-  border-color: 6813ec  ;
+  border-color: 6813ec;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
@@ -1708,12 +1679,7 @@ b {
   cursor: pointer;
 }
 
-
-
-
-
 /* // responsive css */
-
 
 /* 
   ##Device = Desktops
@@ -1721,9 +1687,7 @@ b {
 */
 
 @media (min-width: 1281px) {
-  
   /* CSS */
-  
 }
 
 /* 
@@ -1732,9 +1696,7 @@ b {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
   /* CSS */
-  
 }
 
 /* 
@@ -1743,9 +1705,7 @@ b {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
   /* CSS */
-  
 }
 
 /* 
@@ -1754,9 +1714,7 @@ b {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
   /* CSS */
-  
 }
 
 /* 
@@ -1765,9 +1723,7 @@ b {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
   /* CSS */
-  
 }
 
 /* 
@@ -1776,7 +1732,6 @@ b {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
   /* CSS */
 
   #hero-bg-home {
@@ -1786,30 +1741,25 @@ b {
     background-repeat: no-repeat;
     top: -59%;
     position: relative;
-}
+  }
 
+  .home-hero-bg-wrap {
+    position: relative;
+    left: 0px;
+    text-align: center;
+    top: 7px;
+    z-index: 1;
+    width: 223%;
+    height: 34vw;
+    min-height: 80%;
+  }
 
-.home-hero-bg-wrap {
-  position: relative;
-  left: 0px;
-  text-align: center;
-  top: 7px;
-  z-index: 1;
-  width: 223%;
-  height: 34vw;
-  min-height: 80%;
-}
+  /* nav bar */
 
-
-/* nav bar */
-
-.w-container {
-  padding: 0% 3% 0% 3%;
-  width: 220%;
-  height: auto;
-  position: relative;
-}
-
-  
-  
+  .w-container {
+    padding: 0% 3% 0% 3%;
+    width: 220%;
+    height: auto;
+    position: relative;
+  }
 }
